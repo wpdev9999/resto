@@ -1,1 +1,35 @@
-<h1>add-resto works!</h1>
+<div class="container">
+
+    <h1>Add New Restaurant</h1>
+
+    <div class="name-container">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your Name</mat-label>
+          <input matInput placeholder="John" [formControl]="name" required>
+          <mat-error *ngIf="name.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="example-container">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your email</mat-label>
+          <input matInput placeholder="pat@example.com" [formControl]="email" required>
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="example-container">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your email</mat-label>
+          <input matInput placeholder="pat@example.com" [formControl]="email" required>
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="example-container">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your email</mat-label>
+          <input matInput placeholder="pat@example.com" [formControl]="email" required>
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+      </div>
+
+</div>
+
