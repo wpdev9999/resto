@@ -21,7 +21,6 @@ export class ListRestoComponent implements OnInit {
       if(!result){
           return;
       }
-      //console.log(result);
       this.dataSource = result;
     })
   }
